@@ -34,7 +34,7 @@
                 }
             })
 
-            restore()
+            restoreOverride ? restoreOverride() : restore()
             
         })
     
