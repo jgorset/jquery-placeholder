@@ -10,18 +10,24 @@ jQuery Placeholder is a jQuery plugin that emulates HTML5 form fields' `placehol
     
     <html>
         <head>
+        
             <script type="text/javascript" src="jquery.placeholder.js"></script>
             <script type="text/javascript">
+            
                 $(document).ready(function(){
                     $('input[placeholder]').placeholder()  
                 })
+                
             </script>
+            
         </head>
         <body>
+        
             <form method="POST">
                 <input type="input" name="name" placeholder="Your name" />
                 <input type="submit" value="Submit" />
-            </form
+            </form>
+            
         </body>
     </html>
 
