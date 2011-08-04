@@ -6,7 +6,7 @@
           
             var $this = $(this)
 
-            original_color = $this.css('color')
+            var original_color = $this.css('color')
 
             function remove(){
                 $this.css('color', original_color)
