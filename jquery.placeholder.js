@@ -1,9 +1,9 @@
 (function( $ ){
 
     $.fn.placeholder = function(restoreOverride, removeOverride){
-        
+
         return $(this).each(function(){
-          
+
             var $this = $(this)
 
             var original_color = $this.css('color')
@@ -34,10 +34,12 @@
                 }
             })
 
-            restoreOverride ? restoreOverride() : restore()
-            
+            if(!$this.val() || $this.val() == $this.attr('placeholder')){
+                restoreOverride ? restoreOverride() : restore()
+            }
+
         })
-    
+
     }
-    
+
 })( jQuery )
