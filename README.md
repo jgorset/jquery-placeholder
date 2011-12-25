@@ -2,7 +2,7 @@
 
 ## About
 
-jQuery Placeholder is a jQuery plugin that emulates HTML5 form fields' `placeholder` attribute.
+Placeholder emulates HTML5's new `placeholder` attribute for browsers that don't support it yet.
 
 ## Usage
 

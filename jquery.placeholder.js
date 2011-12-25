@@ -1,3 +1,12 @@
+/*
+ * jQuery Placeholder Plugin
+ * Examples and documentation at: http://github.com/jgorset/jquery-placeholder
+ * Copyright (c) 2011 Johannes Gorset
+ * Version: 1.0
+ * License: MIT
+ * Requires: jQuery v1.4 or later
+ */
+
 (function( $ ){
 
     $.fn.placeholder = function(restoreOverride, removeOverride){
